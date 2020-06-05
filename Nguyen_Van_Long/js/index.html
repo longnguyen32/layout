@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <h1 id="color-red" onclick="toogleColor()">day la dong dau tien</h1>
+    <h1 class="title">day la dong th 2</h1>
+    <a href="https://fb.com">youtuber</a>
+    <a href="https://google.com">you tube2</a>
+    <a href="https://youtube.com">you tube3</a>
+    <div class="article">
+        <h1 class="title">Tieu de trong article</h1>
+    </div>
+
+    <script>
+        const h1 = document.getElementById('color-red');
+        h1.style.color = 'red'
+
+        function toogleColor() {
+            const color = h1.style.color
+            if (color === 'red') {
+                h1.style.color = 'blue'
+            }
+            else
+
+                h1.style.color = 'red'
+
+        }
+        // h1.innerText
+        // h1.innerHTML
+        // document.body.innerText
+
+        // src, text, href
+        // let i =1
+        // const myloop = setInterval(function () {
+        //     console.log(i)
+        //     i++
+        //     if(i===10){
+        //         clearInterval(myloop)
+        //     }
+        // }, 1000)
+
+        // setTimeout(function(){
+        //     clearInterval(myloop)
+        // },3000)
+
+        // function sum(a,b){
+        //     return a+b
+        // }
+        // sum(4,5)
+
+        // sums = (a,b) => a+b
+        // sums(4,5)
+        function hello(){
+        //     if(true){
+        //         const name = "scaa"
+        //         console.log("ten ban la:" + name)
+        //     }
+        // }
+        const person= {name:"name"}
+        person.nam = "hoa"
+        console.log("ten ban la:" + person.nam)
+    }
+        hello()
+    </script>
+</body>
+
+</html>

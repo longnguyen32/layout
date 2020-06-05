@@ -1,0 +1,50 @@
+
+.content .menu .right a{
+    display: none;
+}
+
+.content .menu .right span {
+    display: inline-block;
+}
+
+.wrapper .row .col-4 {
+    width: 100%;
+}
+
+.wrapper .row .col-4:not(:last-child) {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-right: none;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.people .row .col-3 {
+    width: calc(50% - 22.5px);
+}
+
+.people .row .col-3 {
+    margin-bottom: 40px;
+}
+
+.design .row .col-6{
+    width: 100%;
+}
+
+.design .row .col-6:not(:last-child){
+    margin-bottom: 4rem;
+}
+
+.footer {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer .footer-right {
+    margin-bottom: 2rem;
+}
+
+.footer .footer-right .footer-list {
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,86 @@
+.content .banner h1 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content .banner p {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+.content .menu .right a{
+    display: none;
+}
+
+.content .menu .right span {
+    display: inline-block;
+}
+
+.wrapper .row .col-4 {
+    width: 100%;
+}
+
+.wrapper .row .col-4:not(:last-child) {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-right: none;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.people .row .col-3 {
+    width: calc(50% - 22.5px);
+}
+
+.people .row .col-3 {
+    margin-bottom: 40px;
+}
+
+.feugiat h2 {
+    font-size: 2.5rem;
+}
+
+.feugiat span {
+    font-size: 0.9rem;
+}
+
+.design {
+    padding: 3rem 0;
+}
+
+.design__name h2 {
+    font-size: 2rem;
+}
+
+.design__name p {
+    font-size: .8rem;
+}
+
+.design .row .col-6{
+    width: 100%;
+}
+
+.design .row .col-6:not(:last-child){
+    margin-bottom: 4rem;
+}
+
+.footer {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer .footer-right {
+    margin-bottom: 2rem;
+}
+
+.footer .footer-right .footer-list {
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+#menu ul{
+    list-style: none;
+    background: #f27d4e;
+    padding:0px;
+    margin:0px;
+}
+
+#menu ul li{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    text-align: center;
+}
+
+#menu ul li a:hover{
+    background-color: black
+}
+
+#bot{
+    float: right;
+}

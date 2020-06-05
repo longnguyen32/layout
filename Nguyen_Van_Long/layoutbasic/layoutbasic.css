@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+}
+
+.color {
+    position: relative;
+    margin: 200px;
+}
+
+.color div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.red{
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.green {
+    background: green;
+}
+
+.color div:nth-child(1){
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+}
+
+.color div:nth-child(2){
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+.color div:nth-child(3){
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+}

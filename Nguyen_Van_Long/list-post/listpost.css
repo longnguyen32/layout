@@ -1,0 +1,62 @@
+#main{
+    width: 600px;
+    height: auto;
+    background-color:#0e4ba0;
+    margin-right:  auto;
+    margin-left:  auto;
+    padding: 0;
+}
+
+/* CSS HEADER */
+#head{
+    height: 150px;
+    background-color:#0755c1;
+}
+
+/* CSS CONTENT */
+#content{
+    height: 910px;
+}
+
+#content-top{
+    margin-bottom:20px;
+    padding-top: 20px;
+    width: 600px;
+    height: 200px;
+}
+
+.content-left{
+    width: 155px;
+    height: 155px;
+    background-color:rgb(4, 23, 82);
+    margin: 30px 15px 30px 30px;
+    float: left;
+}
+
+.content-right{
+    width: 368px;
+    height: 155px;
+    margin: 30px 15px 30px 15px;
+    float: left;
+}
+
+span.test1{
+    height: 155px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(3, 17, 58);
+    display: inline-block;
+}
+
+.content-mid{
+    margin-bottom:20px;
+    width: 600px;
+    height: 200px;
+}
+
+#content-foot{
+    margin-bottom:20px;
+    width: 600px;
+    height: 200px;
+}
+
